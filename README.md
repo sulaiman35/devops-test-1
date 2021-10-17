@@ -12,6 +12,7 @@ Please go step by Step.
      ii. Now run " terrform plan " to view the plan of this terrform file and few entries as written below.
      
 #-------------------------------------------------------------#
+
 var.vpc_id
   VPC ID to create the cluster in (e.g. `vpc-a22222ee`)
 
