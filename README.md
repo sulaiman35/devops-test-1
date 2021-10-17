@@ -3,9 +3,11 @@ This Terraform Script is created for setting up Cluster
 Please go step by Step.
 1. Create VPC:
    Please access "emr-tasks/dev/" location of this repo and check below steps.
-     i. Please run " terraform init " command to initialize all modules and sources.
-     ii. Now run " terraform plan " to view the way forward of this terrform.
-     iii. Now run " terraform apply " to finally start creating VPC
+   
+  i. Please run " terraform init " command to initialize all modules and sources.
+  ii. Now run " terraform plan " to view the way forward of this terrform.
+  iii. Now run " terraform apply " to finally start creating VPC
+  
 2. Create EMR Cluster:
    To create ERM Cluster, please go to " terraform-aws-emr-cluster/ " directory of this repo amd run below steps.
      i. Please run " terraform init" command to initialize all modules.
@@ -27,7 +29,7 @@ Please go step by Step.
 
 We have to provide VPC name and region, I have used us-east-1 region.
      
-iii. Now run " terraform apply " and same variables as shown above for terraform plan, once the correct variables are provided, the emr setup is create.
+  iii. Now run " terraform apply " and same variables as shown above for terraform plan, once the correct variables are provided, the emr setup is create.
 
 Once the EMR Cluster is ready, now we can ssh into master server, Master server hostname will be displayed at the end of the EMR cluster setup, we have to access and run 2nd and 3rd bash script to get result.
 
