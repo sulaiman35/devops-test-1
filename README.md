@@ -5,13 +5,15 @@ Please go step by Step.
    Please access "emr-tasks/dev/" location of this repo and check below steps.
    
   i. Please run " terraform init " command to initialize all modules and sources.
+  
   ii. Now run " terraform plan " to view the way forward of this terrform.
+  
   iii. Now run " terraform apply " to finally start creating VPC
   
 2. Create EMR Cluster:
    To create ERM Cluster, please go to " terraform-aws-emr-cluster/ " directory of this repo amd run below steps.
-     i. Please run " terraform init" command to initialize all modules.
-     ii. Now run " terrform plan " to view the plan of this terrform file and few entries as written below.
+   i. Please run " terraform init" command to initialize all modules.
+   ii. Now run " terrform plan " to view the plan of this terrform file and few entries as written below.
      
   #-------------------------------------------------------------#
 
