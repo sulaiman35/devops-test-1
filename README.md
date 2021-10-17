@@ -4,11 +4,11 @@ Please go step by Step.
 1. Create VPC:
    Please access "emr-tasks/dev/" location of this repo and check below steps.
    
-  i. Please run " terraform init " command to initialize all modules and sources.
-  
-  ii. Now run " terraform plan " to view the way forward of this terrform.
-  
-  iii. Now run " terraform apply " to finally start creating VPC
+      i. Please run " terraform init " command to initialize all modules and sources.
+
+      ii. Now run " terraform plan " to view the way forward of this terrform.
+
+      iii. Now run " terraform apply " to finally start creating VPC
   
 2. Create EMR Cluster:
    To create ERM Cluster, please go to " terraform-aws-emr-cluster/ " directory of this repo amd run below steps.
@@ -37,7 +37,7 @@ Once the EMR Cluster is ready, now we can ssh into master server, Master server 
 
 I have created S3 bucket to hold script "health_violations.py" and input sample data "food_establishment_data.csv" which I have used in this setup.
 
-Note: I have create first-key named ssh-key which will be shared in email for acces purpose.
+  Note: I have create first-key named ssh-key which will be shared in email for acces purpose.
       - Bucket Name: devops-test-results-1122
       - I have created a VM in N. Virginia, because the price of this region is lower then others.
       - VM which is created in N. Virginia named Bastion, is having full access role, I could have used my person Laptop with full access IAM user, but thats not recommended.
