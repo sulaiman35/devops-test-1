@@ -27,7 +27,7 @@ Please go step by Step.
 
 We have to provide VPC name and region, I have used us-east-1 region.
      
-     iii. Now run " terraform apply " and same variables as shown above for terraform plan, once the correct variables are provided, the emr setup is create.
+iii. Now run " terraform apply " and same variables as shown above for terraform plan, once the correct variables are provided, the emr setup is create.
 
 Once the EMR Cluster is ready, now we can ssh into master server, Master server hostname will be displayed at the end of the EMR cluster setup, we have to access and run 2nd and 3rd bash script to get result.
 
